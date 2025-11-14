@@ -148,10 +148,7 @@ terraform validate
 terraform plan 
 ```
 ```
-terraform plan -var 'Linux_distro=redhat' -out myplan
-```
-```
-terraform apply myplan
+terraform apply 
 ```
 Now create `terraform.tfvars,` file to pass the variable values in it, and  see the precedance
 ```
