@@ -150,21 +150,14 @@ terraform plan
 ```
 terraform apply 
 ```
-Now create `terraform.tfvars,` file to pass the variable values in it, and  see the precedance
+Now remove default line in vars.tf file along with # ( comment )
 ```
-vi terraform.tfvars 
+vi vars.tf
 ```
-Add the given lines, by pressing "INSERT" 
-```
-Linux_distro = "ubuntu"
-Instance_type = "t2.large"
-```
+
 Save the file using "ESCAPE + :wq!"
 
 ```
-terraform fmt
-```
- ```
 terraform apply
 ```
 
